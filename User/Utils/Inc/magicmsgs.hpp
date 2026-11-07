@@ -157,8 +157,8 @@ struct logger_t
     bool door_session_active;
     bool autoaim_allow;
     bool door_close_inhibit_active;
-    float string_L_force_kg;
-    float string_R_force_kg;
+    float string_L_displacement_mm;
+    float string_R_displacement_mm;
     uint16_t checksum;
 } __attribute__((packed));
 
